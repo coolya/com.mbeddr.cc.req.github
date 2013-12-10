@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="4xck" modelUID="r:4565b779-2893-46d0-9990-2520bfaa425d(com.mbeddr.cc.req.github.issues.structure)" version="-1" />
+    </dependencies>
+    <rename id="4xck.3817468059625144992" type="PROPERTY" from="id" to="num" />
+  </StructureModification>
+</history>
+
