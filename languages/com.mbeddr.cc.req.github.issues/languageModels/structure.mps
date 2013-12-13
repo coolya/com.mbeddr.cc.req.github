@@ -122,5 +122,15 @@
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
     </node>
   </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6021961381417160191" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="OpenIssuesFilter" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="open" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="75wo.6148254807184908145" resolveInfo="RequirementsFilter" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6021961381418202005" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="CloseIssueFilter" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="close" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="75wo.6148254807184908145" resolveInfo="RequirementsFilter" />
+  </root>
 </model>
 

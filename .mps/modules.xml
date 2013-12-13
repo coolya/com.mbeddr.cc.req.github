@@ -4,6 +4,7 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.cc.req.github.issues/com.mbeddr.cc.req.github.issues.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.cc.req.github.issues/runtime/com.mbeddr.cc.req.github.issues.runtime.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.cc.req.trace.adapter/com.mbeddr.cc.req.trace.adapter.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/djgdsjkg/djgdsjkg.msd" folder="" />
     </projectModules>
   </component>
