@@ -155,6 +155,7 @@
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="3817468059628991111" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="hba4.LogExpr" typeId="hba4.5667201763537739848" id="267201299605334265" nodeInfo="ng">
           <property name="label" nameId="hba4.5667201763537739900" value="equals(Object):boolean" />
+          <property name="disabled" nameId="hba4.4987804909765039412" value="true" />
           <node role="expr" roleId="hba4.5667201763537739902" type="tpee.DotExpression" typeId="tpee.1197027756228" id="267201299605334266" nodeInfo="nn">
             <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="267201299605334267" nodeInfo="nn">
               <node role="operand" roleId="tpee.1197027771414" type="1i04.ThisNodeExpression" typeId="1i04.1225194691553" id="267201299605334268" nodeInfo="nn" />
@@ -172,6 +173,7 @@
         </node>
         <node role="statement" roleId="tpee.1068581517665" type="hba4.LogExpr" typeId="hba4.5667201763537739848" id="267201299605336372" nodeInfo="ng">
           <property name="label" nameId="hba4.5667201763537739900" value="equals(Object):boolean" />
+          <property name="disabled" nameId="hba4.4987804909765039412" value="true" />
           <node role="expr" roleId="hba4.5667201763537739902" type="tpee.DotExpression" typeId="tpee.1197027756228" id="267201299605336373" nodeInfo="nn">
             <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="267201299605336374" nodeInfo="nn">
               <node role="operand" roleId="tpee.1197027771414" type="1i04.ThisNodeExpression" typeId="1i04.1225194691553" id="267201299605336375" nodeInfo="nn" />
@@ -189,6 +191,7 @@
         </node>
         <node role="statement" roleId="tpee.1068581517665" type="hba4.LogExpr" typeId="hba4.5667201763537739848" id="267201299605338873" nodeInfo="ng">
           <property name="label" nameId="hba4.5667201763537739900" value="log3" />
+          <property name="disabled" nameId="hba4.4987804909765039412" value="true" />
           <node role="expr" roleId="hba4.5667201763537739902" type="tpee.ParenthesizedExpression" typeId="tpee.1079359253375" id="267201299605360172" nodeInfo="nn">
             <node role="expression" roleId="tpee.1079359253376" type="tpee.EqualsExpression" typeId="tpee.1068580123152" id="267201299605338874" nodeInfo="nn">
               <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="267201299605338875" nodeInfo="nn">
@@ -208,6 +211,7 @@
         </node>
         <node role="statement" roleId="tpee.1068581517665" type="hba4.LogExpr" typeId="hba4.5667201763537739848" id="267201299605341711" nodeInfo="ng">
           <property name="label" nameId="hba4.5667201763537739900" value="isInstanceOf" />
+          <property name="disabled" nameId="hba4.4987804909765039412" value="true" />
           <node role="expr" roleId="hba4.5667201763537739902" type="tpee.DotExpression" typeId="tpee.1197027756228" id="267201299605341712" nodeInfo="nn">
             <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="267201299605341713" nodeInfo="nn">
               <node role="operand" roleId="tpee.1197027771414" type="1i04.ThisNodeExpression" typeId="1i04.1225194691553" id="267201299605341714" nodeInfo="nn" />
@@ -311,6 +315,26 @@
       <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="3817468059628991809" nodeInfo="ir">
         <property name="name" nameId="tpck.1169194664001" value="body" />
         <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="3817468059628991823" nodeInfo="in" />
+      </node>
+    </node>
+    <node role="method" roleId="1i04.1225194240805" type="1i04.ConceptMethodDeclaration" typeId="1i04.1225194472830" id="6021961381406408662" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="isNew" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="6021961381406408663" nodeInfo="nn" />
+      <node role="returnType" roleId="tpee.1068580123133" type="tpee.BooleanType" typeId="tpee.1070534644030" id="6021961381406410002" nodeInfo="in" />
+      <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="6021961381406408665" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="6021961381406411631" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.EqualsExpression" typeId="tpee.1068580123152" id="6021961381406422291" nodeInfo="nn">
+            <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="6021961381406422400" nodeInfo="nn">
+              <property name="value" nameId="tpee.1068580320021" value="0" />
+            </node>
+            <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6021961381406411890" nodeInfo="nn">
+              <node role="operand" roleId="tpee.1197027771414" type="1i04.ThisNodeExpression" typeId="1i04.1225194691553" id="6021961381406411630" nodeInfo="nn" />
+              <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="6021961381406415757" nodeInfo="nn">
+                <link role="property" roleId="tp25.1138056395725" targetNodeId="4xck.3817468059625144992" resolveInfo="num" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node role="constructor" roleId="1i04.1225194240801" type="1i04.ConceptConstructorDeclaration" typeId="1i04.1225194413805" id="3817468059628861625" nodeInfo="nn">
